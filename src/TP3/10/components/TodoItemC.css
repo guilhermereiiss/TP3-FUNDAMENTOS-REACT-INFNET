@@ -1,0 +1,24 @@
+.todo-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .todo-item.completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .complete-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .complete-button:hover {
+    background-color: #45a049;
+  }
